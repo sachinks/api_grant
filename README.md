@@ -2,6 +2,10 @@
 
 Python-based data extraction system that pulls **research grant records from multiple public APIs**, handles pagination and normalization, and outputs **structured Excel files ready for downstream data pipelines**.
 
+🔗 Repository: https://github.com/sachinks/api_grant
+
+📁 Sample Outputs: See `sample_data/`
+
 ---
 
 ## 🚀 Key Features
@@ -59,8 +63,8 @@ NIH_20250110.xlsx
 ## ⚙️ Quick Start
 
 ```bash
-git clone <repo-url>
-cd grant
+git clone https://github.com/sachinks/api_grant.git
+cd api_grant
 
 python -m venv .venv
 source .venv/bin/activate        # macOS/Linux
